@@ -2,7 +2,7 @@ import todoImage from "../assets/todo-png-image.png";
 
 const Home = () => {
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-200 to-red-600">
+    <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-300 via-orange-300 to-red-500">
       {/* Navbar Section with glass blur background */}
       <nav className="w-full px-8 py-4 fixed top-0 left-0 flex items-center justify-between backdrop-blur-lg bg-white bg-opacity-30 z-10">
         {/* Left side of navbar (you can add logo or text here if needed) */}
